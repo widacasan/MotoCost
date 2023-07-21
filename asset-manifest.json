@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/MotoCost/static/css/main.073c9b0a.css",
+    "main.js": "/MotoCost/static/js/main.d9780c26.js",
+    "static/js/787.50759f35.chunk.js": "/MotoCost/static/js/787.50759f35.chunk.js",
+    "static/media/logo.svg": "/MotoCost/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/MotoCost/index.html",
+    "main.073c9b0a.css.map": "/MotoCost/static/css/main.073c9b0a.css.map",
+    "main.d9780c26.js.map": "/MotoCost/static/js/main.d9780c26.js.map",
+    "787.50759f35.chunk.js.map": "/MotoCost/static/js/787.50759f35.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.d9780c26.js"
+  ]
+}
