@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# MotoCost - ¡Tu aliado financiero sobre dos ruedas! 🏍️💰
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![MotoFinanzas](https://c8.alamy.com/compes/d1r3re/paris-francia-escena-tras-moto-incendio-en-paris-una-fila-de-vehiculos-estacionados-destruido-en-este-incidente-d1r3re.jpg)
 
-## Available Scripts
+¡Hey, motociclista intrépido! ¿Buscas la fórmula mágica para controlar tu presupuesto y seguir conquistando la carretera con estilo? ¡Pues estás en el lugar correcto!
 
-In the project directory, you can run:
+## ¡Prepárate para una experiencia financiera única!
 
-### `npm start`
+En MotoFinanzas, no solo te ofrecemos las típicas aburridas herramientas de gestión de dinero. ¡Nuestro equipo de expertos moteros ha creado una plataforma inteligente, sencilla y divertida para que domines tus finanzas mientras te sientes como un rey de la carretera!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ¿Por qué elegir MotoFinanzas?
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+✨ **Calcula tu presupuesto personalizado:** Deja de preocuparte por esos números misteriosos. Con nuestra interfaz intuitiva, calcular tu presupuesto es tan fácil como recorrer una recta sin obstáculos. ¡Ah, y te lo prometemos, no habrá exámenes matemáticos!
 
-### `npm test`
+✨ **Controla tus gastos como un ninja financiero:** Mantén un ojo en cada centavo que gastas en tu moto, ya sea en combustible, mantenimiento, accesorios "obligatorios" o esos caprichos que simplemente no puedes resistir. Saber exactamente dónde va tu dinero te permitirá ahorrar para esa escapada épica que tanto deseas.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+✨ **Informes y gráficos alucinantes:** Olvídate de las tablas aburridas y cálculos interminables. Con MotoFinanzas, los datos cobran vida y se transforman en gráficos increíbles que te ayudarán a visualizar tu progreso financiero. ¡Parecerá que estás viendo tu ruta en un mapa lleno de curvas y paisajes alucinantes!
 
-### `npm run build`
+## ¿Listo para la aventura financiera?
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+¡No esperes más y únete a la comunidad MotoFinanzas! Saca a relucir tu espíritu aventurero mientras te conviertes en el dueño absoluto de tu presupuesto. ¿Cómo empezar? ¡Es pan comido!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Ingresa a [www.motoCost.com](https://widacasan.github.io/MotoCost/)
+2. Ingresa tus ingresos y gastos, pero no te preocupes, ¡aquí no pedimos nada a cambio de la adrenalina!
+3. Añade tus gastos moteros con un toque de estilo y categorízalos como el motociclista experto que eres.
+4. ¡Deslízate por nuestros informes y disfruta de cada gráfico como si fueran las curvas de tu ruta favorita!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Únete a MotoFinanzas hoy mismo
 
-### `npm run eject`
+¿A qué esperas? ¡La carretera te llama y MotoFinanzas te respalda! Visítanos en [www.motoCost.com](https://widacasan.github.io/MotoCost/) para comenzar tu épica travesía financiera.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+¡Síguenos en redes sociales para estar al día con las últimas noticias, memes moteros y consejos con un toque de gracia!
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Facebook: [facebook.com/motofinanzas](https://www.facebook.com/motofinanzas) ¡Dale "Me gusta" y comparte la ruta financiera!
+- Twitter: [twitter.com/motofinanzas](https://www.twitter.com/motofinanzas) ¡Sigue nuestros tweets para estar al tanto de las tendencias económicas moteras!
+- Instagram: [instagram.com/motofinanzas](https://www.instagram.com/motofinanzas) ¡Síguenos para tener la dosis diaria de inspiración financiera y fotos de motos espectaculares!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+¡Gracias por elegir MotoFinanzas, donde tus sueños financieros y tu pasión motera se unen para conquistar la carretera! 🚀🌟
