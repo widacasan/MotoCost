@@ -1,0 +1,45 @@
+.items-bike {
+    color: #14378F;
+    text-align: center;
+  }
+
+  .parrafo{
+    font-family: 'Khand';
+  color: #000000;
+  text-align: center;
+  font-size: 12px;
+  margin-inline: 290px;
+  margin-block: 100px;
+  }
+  .title{
+    font-family: 'Kavoon', cursive;
+  color: #14378F;
+  font-size: 40px;
+  }
+  
+  .form-container {
+    background-color: #FFFEF6 ;
+    display: inline-flex;
+    gap: 100px;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Khand', sans-serif; 
+    font-weight: bold;
+  }
+  
+  /* Estilo para los selectores */
+  .select-style {
+    width: 300px;
+    background-color: #D3E5FF;
+    border: 2px solid #2796FC;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 16px;
+    outline: none; /* Elimina el borde de enfoque */
+  }
+  

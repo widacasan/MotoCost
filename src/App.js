@@ -1,12 +1,19 @@
 
-import './App.css';
+import React from 'react';
+import HeadTitle from './components/HeadTitle';
+import ItemsBike from './components/ItemsBike';
+import "./style/App.css"
 
-function App() {
+const App = () => {
   return (
-    <div className="">
-      <h1>Welcome to MotoCost</h1>
+    <div className='app'>
+      <HeadTitle title="Bienvenido a Motosense" 
+                 />
+        
+        <ItemsBike />
+
     </div>
   );
-}
+};
 
 export default App;
