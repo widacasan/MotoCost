@@ -1,8 +1,11 @@
 import React, { useState } from "react";
 import Button from "./Button";
+import { useNavigate  } from "react-router-dom";
 import "../style/ItemsBike.css";
+import HeadTitle from '../components/HeadTitle';
 
 const ItemsBike = () => {
+  const navigate = useNavigate ();
   const [selectedMarca, setSelectedMarca] = useState("");
   const [selectedModelo, setSelectedModelo] = useState("");
   const [selectedAnio, setSelectedAnio] = useState("");
@@ -134,7 +137,7 @@ const ItemsBike = () => {
       "V-Storm 250",
       "SV650X",
       "Gixxer 250",
-      "Gixxer SF 250",
+      "Gixxer 250 Naked",
       "Gixxer 150",
       "Gixxer SF 150",
     ],
@@ -543,25 +546,30 @@ const ItemsBike = () => {
     ],
   };
 
-  const handleClick = () => {
-    alert(
-      `Escogiste una moto  ${selectedMarca} modelo ${selectedModelo} del año  ${selectedAnio}`
-    );
-  };
-
   const handleMarcaChange = (e) => {
     const marcaSeleccionada = e.target.value;
     setSelectedMarca(marcaSeleccionada);
 
-    // Si la marca seleccionada tiene modelos, selecciona el primero automáticamente
     if (modelosPorMarca[marcaSeleccionada]) {
       setSelectedModelo(modelosPorMarca[marcaSeleccionada][0]);
     }
   };
 
+  const handleClick = () => {
+    if (selectedMarca && selectedModelo && selectedAnio) {
+      const url = `/${selectedMarca}/${selectedModelo}/${selectedAnio}`;
+      navigate(url);
+    } else {
+      //lógica adicional en caso de que falten datos
+      alert('Faltan datos para generar la URL');
+    }
+  };
+
+  
+
   const handleFormSubmit = (event) => {
     event.preventDefault();
-    // Aquí puedes realizar acciones con los valores de los elementos
+    // realizar acciones con los valores de los elementos
     console.log("Marca:", selectedMarca);
     console.log("Modelo:", selectedModelo);
     console.log("Año:", selectedAnio);
@@ -569,6 +577,7 @@ const ItemsBike = () => {
 
   return (
     <div className="items-bike">
+      <HeadTitle title="Bienvenido a Motosense" />
       <div className="parrafo">
         <h1>¡Tu aliado financiero sobre dos ruedas! Con nuestra plataforma inteligente, los motociclistas pueden calcular y controlar su presupuesto de gastos de forma sencilla y divertida. ¡Deja que tus finanzas vuelen libremente mientras tú disfrutas de la carretera! ¡Tu moto, tu presupuesto, tu libertad!</h1>
       </div>
