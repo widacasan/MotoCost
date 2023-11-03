@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import HeadTitle from './HeadTitle';
 
 const MotoCost = () => {
-    const { marca, modelo, anio } = useParams();
+    const { marca, modelo } = useParams();
 
     // Objeto de mapeo con imágenes y descripciones para cada marca y modelo
     const motoData = {
