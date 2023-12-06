@@ -1,0 +1,44 @@
+{
+  "modelosPorMarca": [
+    {
+      "honda": [
+        {
+          "id": 1,
+          "nombre": "CBR1000RR",
+          "cilindraje": 1000,
+          "detalles": {
+            "año": "2018",
+            "Aceite": 60000,
+            "Refrigerante": 60000,
+            "Filtro de aire": 80000,
+            "Filtro de Aceite": 70000,
+            "Filtro liquido refrigerante": 80000,
+            "Kit de arrastre": 200000,
+            "Soat": 150000,
+            "Tecnomecanica": 120000,
+            "Llantas": 250000
+          },
+          "precio": 250000
+        },
+        {
+          "id": 2,
+          "nombre": "CBR600RR",
+          "cilindraje": 600,
+          "detalles": {
+            "año": "2018",
+            "Aceite": 55000,
+            "Refrigerante": 50000,
+            "Filtro de aire": 70000,
+            "Filtro de Aceite": 60000,
+            "Filtro liquido refrigerante": 70000,
+            "Kit de arrastre": 180000,
+            "Soat": 140000,
+            "Tecnomecanica": 110000,
+            "Llantas": 220000
+          },
+          "precio": 200000
+        }
+      ]
+    }
+  ]
+}
